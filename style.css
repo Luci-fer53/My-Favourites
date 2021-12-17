@@ -1,0 +1,49 @@
+body{
+  text-align:center;
+}
+
+img{
+  width:400px;
+    height:250px;
+  border-radius:10%;
+}
+#welcome{
+    background:linear-gradient(#ffff99 0%,#ff3399 100%);
+    position:absolute;
+    overflow: hidden;
+    left:0px;
+    right: 0px;
+    display:table;
+    width: 100%;
+    z-index: 9;
+}
+
+.bio{
+    padding-top: 25%;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+}
+#parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+}
+h1{
+  border:solid black 2px;
+  border-radius:7px;
+  padding:2px;
+}
+.menu{
+    list-style: none;
+    z-index: 10;
+    top:50px;
+    position: fixed;
+    right:20px;
+    cursor:pointer;
+}
+.link{
+    float:right;
+    padding-right:20px;
+}
